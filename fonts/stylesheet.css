@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'avenir-black';
+	src: url('avenir-black.eot');
+	src: url('avenir-black.eot?#iefix') format('embedded-opentype'),
+		 url('avenir-black.woff') format('woff'),
+		 url('avenir-black.ttf') format('truetype'),
+		 url('avenir-black.svg#avenir-black') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'AvenirLTStd-Light';
+	src: url('AvenirLTStd-Light.eot');
+	src: url('AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+		 url('AvenirLTStd-Light.woff') format('woff'),
+		 url('AvenirLTStd-Light.ttf') format('truetype'),
+		 url('AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}

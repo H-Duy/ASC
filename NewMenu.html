@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<title>Home</title>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" media="all"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/demo.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/layout-multi.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/screen.css" media="all"/>
+</head>
+<body>
+	<section id="wrapper">
+		<nav id="main-menu">
+			<div class="inner-main-menu">
+				<nav id="menu" class="menu">
+				  <button class="menu__handle"><span>Menu</span></button>
+					<div class="menu__inner">
+						<ul>
+							<li><a href="#"><i class="fa fa-fw fa-home"></i><span>Home<span></a></li>
+							<li><a href="#"><i class="fa fa-fw fa-heart"></i><span>Favs<span></a></li>
+							<li><a href="#"><i class="fa fa-fw fa-folder"></i><span>Files<span></a></li>
+							<li><a href="#"><i class="fa fa-fw fa-tachometer"></i><span>Stats<span></a></li>
+						</ul>
+					</div>
+					<div class="morph-shape" data-morph-open="M300-10c0,0,295,164,295,410c0,232-295,410-295,410" data-morph-close="M300-10C300-10,5,154,5,400c0,232,295,410,295,410">
+						<svg width="100%" height="100%" viewBox="0 0 600 800" preserveAspectRatio="none">
+							<path fill="none" d="M300-10c0,0,0,164,0,410c0,232,0,410,0,410"/>
+						</svg>
+					</div>
+			  	</nav>
+			</div>
+		</nav>
+		<header id="header">
+			<div class="header-top">
+				<div class="logo left">
+					<a href="#"><img src="images/big-logo.png" alt="" /></a>
+				</div>
+				<div class="top-right">
+					<ul>
+						<li><a href="#" class=""><i class="fa fa-user"></i></a></li>
+						<li>
+							<a href="#" class="btn-card"><i class="fa fa-shopping-cart"></i></a>
+							<form id="frmCard" action"#">
+								<ul class="all">
+									<li class="pane">
+										<img src="images/img1.jpg" alt="" />
+										<div class="description">
+											<a href="#">Google Plus icons</a>
+											<div class="position"><p><span class="currency"><span>$</span>30</span><span class="sign">x</span><input type="text" value="1" /></p><a href="#"><img src="images/img.png" alt="" class="delete"/></a></div>
+										</div>
+									</li>
+									<li class="pane">
+										<img src="images/img2.jpg" alt="" />
+										<div class="description">
+											<a href="#">Heavy download button photoshop sources</a>
+											<div class="position"><p><span class="currency"><span>$</span>101</span><span class="sign">x</span><input type="text" value="1" /></p><a href="#"><img src="images/img.png" alt="" class="delete"/></a></div>
+										</div>
+									</li>
+									<li class="last pane">
+										<img src="images/img3.jpg" alt="" />
+										<div class="description">
+											<a href="#">Google Plus icons</a>
+											<div class="position"><p><span class="currency"><span>$</span>100</span><span class="sign">x</span><input type="text" value="1" /></p><a href="#"><img src="images/img.png" alt="" class="delete"/></a></div>
+										</div>
+									</li>
+								</ul>
+								<div class="bottom">
+									<p class="btn">
+									<span class="total">Total: </span><span class="currency">$</span><span class="sum">231</span>
+									<input type="button" value="Check out >>" />
+									</p>
+								</div>
+							</form>
+						</li>
+						<li><a href="#" class=""><i class="fa fa-search"></i></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</header>
+		<section id="content">
+			<nav class="thumb-nav">
+				<a data-container="container-1" class="thumb-nav__item" href="#"><img src="images/thumbs/thumb1.png" alt="thumb01" /><span>1</span></a>
+				<a data-container="container-2" class="thumb-nav__item" href="#"><img src="images/thumbs/thumb2.png" alt="thumb02" /><span>2</span></a>
+				<a data-container="container-3" class="thumb-nav__item" href="#"><img src="images/thumbs/thumb3.png" alt="thumb03" /><span>3</span></a>
+			</nav>
+			<div id="container-1" class="container theme-1">
+				<header class="intro">
+					<div class="intro__image">
+						<video class="video-container" poster="" autoplay id="video1">
+			                <source src="videos/Aerial-view-of-Sri-Lanka.mp4" type="video/mp4">
+			                <source src="videos/Aerial-view-of-Sri-Lanka.webm" type="video/webm">
+			            </video>
+			            <div class="control-video">
+			            	<a href="#" class="btn-pause-play">Play/Pause</a>
+			            </div>
+					</div>
+					<!-- <img class="intro__image" src="images/header01.jpg" alt="Lava"/> -->
+					
+					<div class="intro__content">
+						<div class="intro__subtitle">
+							<button class="trigger">
+								<span>view tmore videos</span>
+							</button>
+						</div>
+					</div><!-- /intro__content -->
+				</header><!-- /intro -->
+				<section class="items-wrap">
+					<div class="item">
+						<img class="item__image" src="images/img01.jpg" alt="item01"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img02.jpg" alt="item02"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img03.jpg" alt="item03"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img04.jpg" alt="item04"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img05.jpg" alt="item05"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img06.jpg" alt="item06"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img01.jpg" alt="item07"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img02.jpg" alt="item08"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img03.jpg" alt="item09"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img04.jpg" alt="item10"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img05.jpg" alt="item11"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img06.jpg" alt="item12"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="related">
+					<p>&copy; 2015 Aerial Entertainment Studios All Rights Reserved </p>
+				</section>
+			</div><!-- /container -->
+			<div id="container-2" class="container theme-2">
+				<header class="intro">
+					<img class="intro__image" src="images/header02.jpg" alt="Road"/>
+					<div class="intro__content">
+						<div class="intro__subtitle">
+							
+							<button class="trigger">
+								<span>view tmore videos</span>
+							</button>
+						</div>
+					</div><!-- /intro__content -->
+				</header><!-- /intro -->
+				<section class="items-wrap">
+					<div class="item">
+						<img class="item__image" src="images/img01.jpg" alt="item01"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img02.jpg" alt="item02"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img03.jpg" alt="item03"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img04.jpg" alt="item04"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img05.jpg" alt="item05"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img06.jpg" alt="item06"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img01.jpg" alt="item07"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img02.jpg" alt="item08"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img03.jpg" alt="item09"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img04.jpg" alt="item10"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img05.jpg" alt="item11"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img06.jpg" alt="item12"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<section class="related">
+					<p>&copy; 2015 Aerial Entertainment Studios All Rights Reserved </p>
+				</section>
+			</div><!-- /container -->
+			<div id="container-3" class="container">
+				<header class="intro">
+					<img class="intro__image" src="images/header03.jpg" alt="Glacier"/>
+					<div class="intro__content">
+						<div class="intro__subtitle">
+							<button class="trigger">
+								<span>view tmore videos</span>
+							</button>
+						</div>
+					</div><!-- /intro__content -->
+				</header><!-- /intro -->
+				<section class="items-wrap">
+					<div class="item">
+						<img class="item__image" src="images/img01.jpg" alt="item01"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img02.jpg" alt="item02"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img03.jpg" alt="item03"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img04.jpg" alt="item04"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img05.jpg" alt="item05"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img06.jpg" alt="item06"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img01.jpg" alt="item07"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img02.jpg" alt="item08"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img03.jpg" alt="item09"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img04.jpg" alt="item10"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img05.jpg" alt="item11"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="item__image" src="images/img06.jpg" alt="item12"/>
+						<div class="item__title">
+							<h3>Travel to maldives videto</h3>
+							<p>Video Description in Detail</p>
+						</div>
+						<div class="more-info">
+							<div class="inner-info">
+								<a href="#" class="btn-more">More info</a>
+								<a href="#" class="btn-addbag">$ 58.00 <i class="fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<section class="related">
+					<p>&copy; 2015 Aerial Entertainment Studios All Rights Reserved </p>
+				</section>
+			</div><!-- /container -->
+		</section>
+		<a href="#popup-container" class="btn-popup"></a>
+		<section id="popup-container" class="popup">
+			<h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+			<p>Awesome news, awesome stuff, anyway, subscribe !</p>
+			<form action="post">
+				<input type='text' name='name' id='name' maxlength="50" placeholder="Name" />
+				<input type='text' name='email' id='email' maxlength="50" placeholder="Email" />
+				<input type='submit' name='submit' id='submit' maxlength="50" value="Subscribe" />
+			</form>
+		</section>
+		<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="js/jquery.browser.js"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.js"></script>
+		<script type="text/javascript" src="js/snap.svg-min.js"></script>
+		<script type="text/javascript" src="js/classie.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+	</section>
+</body>
+</html>
